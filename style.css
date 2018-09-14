@@ -1,5 +1,5 @@
 html {
-  background-color: #f703a6;
+  background-color: #9bb9d4;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 
 
 
-  font-family: 'Charter';
+  font-family: 'PlayfairDisplaySCRegular';
   font-weight: normal;
   font-style: normal;
 }
@@ -20,13 +20,13 @@ body, pre, pre code {
 }
 
 a, a:visited {
-  color: #f703a6;
+  color: #588dbd;
 }
 
 h1, h2 {
   display: inline-block;
   border-bottom-style: dotted;
-  border-bottom-color: #f703a6;
+  border-bottom-color: #588dbd;
 }
 
 h1 {
