@@ -55,6 +55,12 @@ h1, h2 {
   display: inline-block;
   border-bottom-style: inset;
   border-bottom-color: #588cbdc0;
+
+
+  font-family: 'CooperHewittBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+
 }
 
 h1 {
