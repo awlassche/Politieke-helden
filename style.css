@@ -1,5 +1,5 @@
 html {
-  background-color: #dee6ee;
+  background-color: #eeece8;
 }
 
 body {
@@ -10,9 +10,11 @@ body {
 
 
 
-  font-family: 'PlayfairDisplaySCRegular';
-  font-weight: normal;
-  font-style: normal;
+
+  font-family: 'CooperHewittBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+
 }
 
 body, pre, pre code {
@@ -21,54 +23,66 @@ body, pre, pre code {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #d1b06e;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
+  font-family: 'NaziTypewriterRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #c58b17;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #705217;
   color: white;
 }
 
 a, a:visited {
-  color: #588dbd;
+  color: #d1b06e;
 }
 
 h1, h2 {
   display: inline-block;
   border-bottom-style: inset;
-  border-bottom-color: #588cbdc0;
+  border-bottom-color: #705217;
 
 
-  font-family: 'CooperHewittBold'; 
+  font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
   font-style: normal; 
 
 }
 
 h1 {
-  border-bottom-width: 10px;
+  border-bottom-width: 5px;
+
+  font-family: 'NaziTypewriterRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
 }
 
 h2 {
-  border-bottom-width: 5px;
+
+
+  font-family: 'NaziTypewriterRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
 }
 
 img, audio, iframe {
