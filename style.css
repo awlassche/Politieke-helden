@@ -11,7 +11,7 @@ body {
 
 
 
-  font-family: 'CooperHewittBold'; 
+  font-family: 'CooperHewittBook'; 
   font-weight: normal; 
   font-style: normal; 
 
@@ -57,28 +57,23 @@ a, a:visited {
   color: #d1b06e;
 }
 
-h1, h2 {
-  display: inline-block;
-  border-bottom-style: inset;
-  border-bottom-color: #705217;
-
-
-  font-family: 'NaziTypewriterRegular'; 
-  font-weight: normal; 
-  font-style: normal; 
-
-}
-
 h1 {
-  border-bottom-width: 5px;
-
   font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
   font-style: normal; 
 }
 
 h2 {
+  font-family: 'NaziTypewriterRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
 
+h3 {
+  display: inline-block;
+  border-bottom-style: inset;
+  border-bottom-color: #705217;
+  border-bottom-width: 5px;
 
   font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
