@@ -57,7 +57,7 @@ img, audio, iframe {
 
 .column {
   float: left;
-  width: 20%;
+  width: 750px;
   padding: 2px;
 }
 
