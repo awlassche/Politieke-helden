@@ -27,6 +27,9 @@ a, a:visited {
 
 
 h1 {
+
+  padding-top: 60px
+  
   font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
   font-style: normal; 
@@ -78,7 +81,6 @@ img, audio, iframe {
   position: fixed;
   top: 10;
   width: 100%;
-  padding-top: 60px
 }
 
 
