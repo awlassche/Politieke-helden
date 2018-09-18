@@ -77,7 +77,8 @@ img, audio, iframe {
   overflow: hidden;
   position: fixed;
   top: 10;
-  width: 90%;
+  width: 100%;
+  padding-top: 60px
 }
 
 
