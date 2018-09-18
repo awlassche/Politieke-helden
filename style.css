@@ -29,9 +29,7 @@ a, a:visited {
 h1 {
   font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
-  font-style: normal; 
-
-  padding-top: 60px
+  font-style: normal;
 
 }
 
@@ -105,4 +103,9 @@ img, audio, iframe {
 .topnav a.active {
   background-color: #705217;
   color: white;
+}
+
+h1 {
+
+  padding-top: 60px
 }
