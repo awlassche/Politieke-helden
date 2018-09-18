@@ -71,19 +71,16 @@ img, audio, iframe {
   height: 100%;
 }
 
-.topnav {
+.navbar {
   background-color: #d1b06e;
   overflow: hidden;
-} 
-
-ul {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 
-.topnav a {
+.navbar a {
   float: left;
   color: #333;
   text-align: center;
@@ -96,12 +93,12 @@ ul {
   font-style: normal; 
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #c58b17;
   color: black;
 }
 
-.topnav a.active {
+.navbar a.active {
   background-color: #705217;
   color: white;
 }
