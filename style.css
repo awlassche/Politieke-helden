@@ -74,6 +74,9 @@ img, audio, iframe {
 .topnav {
   background-color: #d1b06e;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 
