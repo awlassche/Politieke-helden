@@ -55,6 +55,19 @@ img, audio, iframe {
   width: 100%;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /*16:9*/
