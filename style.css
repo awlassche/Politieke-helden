@@ -102,3 +102,7 @@ img, audio, iframe {
   background-color: #705217;
   color: white;
 }
+
+.main {
+  margin-bottom: 30px;
+}
