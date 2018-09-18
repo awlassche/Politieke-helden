@@ -27,12 +27,12 @@ a, a:visited {
 
 
 h1 {
-
-  padding-top: 60px
-  
   font-family: 'NaziTypewriterRegular'; 
   font-weight: normal; 
   font-style: normal; 
+
+  padding-top: 60px
+
 }
 
 h2 {
