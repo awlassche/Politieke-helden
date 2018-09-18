@@ -21,6 +21,10 @@ body, pre, pre code {
   font-size: 18px;
 }
 
+a, a:visited {
+  color: #d1b06e;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #d1b06e;
@@ -53,9 +57,7 @@ body, pre, pre code {
   color: white;
 }
 
-a, a:visited {
-  color: #d1b06e;
-}
+
 
 h1 {
   font-family: 'NaziTypewriterRegular'; 
