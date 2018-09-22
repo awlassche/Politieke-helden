@@ -122,3 +122,8 @@ h1 {
 
   padding-top: 60px
 }
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
