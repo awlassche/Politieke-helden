@@ -7,85 +7,6 @@
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nazi-typewriter" type="text/css"/>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
   <link rel="stylesheet" href="style.css">
-  <style>
-    * {box-sizing: border-box;}
-    
-    .img-zoom-container {
-      position: relative;
-    }
-    
-    .img-zoom-lens {
-      position: absolute;
-      border: 1px solid #d4d4d4;
-      /*set the size of the lens:*/
-      width: 40px;
-      height: 40px;
-    }
-    
-    .img-zoom-result {
-      border: 1px solid #d4d4d4;
-      /*set the size of the result div:*/
-      width: 300px;
-      height: 300px;
-    }
-    </style>
-    <script>
-    function imageZoom(imgID, resultID) {
-      var img, lens, result, cx, cy;
-      img = document.getElementById(imgID);
-      result = document.getElementById(resultID);
-      /*create lens:*/
-      lens = document.createElement("DIV");
-      lens.setAttribute("class", "img-zoom-lens");
-      /*insert lens:*/
-      img.parentElement.insertBefore(lens, img);
-      /*calculate the ratio between result DIV and lens:*/
-      cx = result.offsetWidth / lens.offsetWidth;
-      cy = result.offsetHeight / lens.offsetHeight;
-      /*set background properties for the result DIV:*/
-      result.style.backgroundImage = "url('" + img.src + "')";
-      result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
-      /*execute a function when someone moves the cursor over the image, or the lens:*/
-      lens.addEventListener("mousemove", moveLens);
-      img.addEventListener("mousemove", moveLens);
-      /*and also for touch screens:*/
-      lens.addEventListener("touchmove", moveLens);
-      img.addEventListener("touchmove", moveLens);
-      function moveLens(e) {
-        var pos, x, y;
-        /*prevent any other actions that may occur when moving over the image:*/
-        e.preventDefault();
-        /*get the cursor's x and y positions:*/
-        pos = getCursorPos(e);
-        /*calculate the position of the lens:*/
-        x = pos.x - (lens.offsetWidth / 2);
-        y = pos.y - (lens.offsetHeight / 2);
-        /*prevent the lens from being positioned outside the image:*/
-        if (x > img.width - lens.offsetWidth) {x = img.width - lens.offsetWidth;}
-        if (x < 0) {x = 0;}
-        if (y > img.height - lens.offsetHeight) {y = img.height - lens.offsetHeight;}
-        if (y < 0) {y = 0;}
-        /*set the position of the lens:*/
-        lens.style.left = x + "px";
-        lens.style.top = y + "px";
-        /*display what the lens "sees":*/
-        result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
-      }
-      function getCursorPos(e) {
-        var a, x = 0, y = 0;
-        e = e || window.event;
-        /*get the x and y positions of the image:*/
-        a = img.getBoundingClientRect();
-        /*calculate the cursor's x and y coordinates, relative to the image:*/
-        x = e.pageX - a.left;
-        y = e.pageY - a.top;
-        /*consider any page scrolling:*/
-        x = x - window.pageXOffset;
-        y = y - window.pageYOffset;
-        return {x : x, y : y};
-      }
-    }
-    </script>
   <div class="topnav">
     <a href="index.html" href="#home">Home</a>
     <a class="active">Lezen</a>
@@ -126,16 +47,11 @@ De broers worden naar buiten gesleurd, mishandeld en uiteindelijk gedood door he
 Maar dan is het nog niet voorbij: iedereen krijgt de gelegenheid om te doen wat men wil met de twee lijken.
 De lijken worden gruwelijk verminkt, waarna beide lichamen worden opgehangen aan een galg.
 Kunstschilder Jan de Baen heeft het resultaat van de slachtpartij vastgelegd in een <a href="http://hdl.handle.net/10934/RM0001.COLLECT.5873">schilderij.</a>
-</div></p>
-
-<div class="img-zoom-container">
-  <img id="Allegorie" src="files/MalcolmX.jpg" style="width:100%, height:100%" alt="Allegorie">
-  <div id="Zoomallegorie" class="img-zoom-result"></div>
-</div>
-
-<p><div>
 Veel andere kunstenaars raken ook geïnspireerd door de gruwelijke gebeurtenis.
 Graveur Coenraet Decker vervaardigt een prent met de titel ‘Op en Ondergang der Grooten’.
+</div></p>
+<img src="allegorie.jpg" style="width:100%, height:100%">
+<p><div>
 Daarop zit Vader Tijd peinzend aan een tafel vol met objecten die herinneren aan politieke moorden.
 De portretten van Johan en Cornelis de Witt zijn afgebeeld, en in de linkerbovenhoek is het portret van Johan van Oldebarnevelt, voormalige raadspensionaris, te zien.
 Zijn terechtstelling en dood in 1619 werd ook door velen als politieke moord gezien.
