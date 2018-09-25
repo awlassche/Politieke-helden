@@ -14,11 +14,6 @@ body {
   font-family: 'CooperHewittBook'; 
   font-weight: normal; 
   font-style: normal;
-
-  display: inline-block;
-  border-bottom-style: inset;
-  border-bottom-color: #705217;
-  border-bottom-width: 5px;
 }
 
 body, pre, pre code {
@@ -36,10 +31,10 @@ h1 {
   font-weight: normal; 
   font-style: normal;
 
-  display: inline-block;
-  border-bottom-style: inset;
-  border-bottom-color: #705217;
-  border-bottom-width: 5px;
+h1 {
+  font-family: 'NaziTypewriterRegular'; 
+  font-weight: normal; 
+  font-style: normal;
 
 }
 
@@ -50,16 +45,6 @@ h2 {
   display: inline-flex
 }
 
-h3 {
-  display: inline-block;
-  border-bottom-style: inset;
-  border-bottom-color: #705217;
-  border-bottom-width: 5px;
-
-  font-family: 'NaziTypewriterRegular'; 
-  font-weight: normal; 
-  font-style: normal; 
-}
 
 img, audio, iframe {
   width: 100%;
