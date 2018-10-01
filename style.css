@@ -153,6 +153,6 @@ div {
 .img-zoom-result {
   border: 1px solid #d4d4d4;
   /*set the size of the result div:*/
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 400px;
 }
