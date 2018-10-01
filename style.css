@@ -20,10 +20,18 @@ body, pre, pre code {
   font-size: 18px;
 }
 
-a, a:visited {
+a, a:hover {
   color: #333;
 }
-
+a, a:link {
+  color: #c08206
+}
+a, a:link {
+  text-decoration: none;
+}
+a, a:hover {
+  text-decoration: none;
+}
 
 
 h1 {
@@ -119,12 +127,11 @@ img, audio, iframe {
 }
 
 h1 {
-
   padding-top: 60px
 }
 
 div {
   text-align: justify;
   text-justify: inter-word;
-  padding-top: 40px
+
 }
