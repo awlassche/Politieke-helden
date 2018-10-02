@@ -146,8 +146,8 @@ div {
   position: absolute;
   border: 1px solid #d4d4d4;
   /*set the size of the lens:*/
-  width: 50px;
-  height: 50px;
+  width: 33px;
+  height: 44px;
 }
 
 .img-zoom-result {
