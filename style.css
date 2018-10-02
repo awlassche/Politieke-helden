@@ -61,6 +61,7 @@ h3 {
 
 img, audio, iframe {
   width: 100%;
+  padding: 10px;
 }
 
 .column {
